@@ -12,7 +12,7 @@ html
 button
 input
 select
-textarea 
+textarea
   color: $black
 
 a
@@ -22,27 +22,41 @@ a:visited
 
 a:hover
   color: lighten($linkColor,10%)
-  
+
 body
   color: $black
   font-size: 1em
   line-height: 1.5
-  
+
 header
   background: $grey
   color:$black
   padding: 1em
-  
+
   nav
     float:right
     user-select:none
-    
+
   .nav-item
     float:left
     margin-left:.5em
-    
+
     a.active
       text-decoration:underline
-    
+
 .content
   padding: 1em
+
+
+// Map component
+.map
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-width: 0 1px 1px;
+  border-style: solid;
+  border-color: $adb-grayline-darker;
+  &.main-map
+    top: $header-height;

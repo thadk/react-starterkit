@@ -16,5 +16,9 @@
     "tests"
   ],
   "dependencies": {
-  }
+    "leaflet": "~0.7.3",
+    "leaflet.markercluster": "https://github.com/Leaflet/Leaflet.markercluster/archive/v0.4.0-hotfix.1.tar.gz",
+    "esri-leaflet": "~1.0.0-rc.6",
+    "normalize.css": "~3.0.1"
+}
 }
